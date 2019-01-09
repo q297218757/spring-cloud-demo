@@ -1,0 +1,29 @@
+*.pydevproject
+.metadata
+.gradle
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+RemoteSystemsTempFiles/
+# Eclipse Core
+.project
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+#jetbrains ide
+.idea/
+*.iml
+# 忽略Maven的插件信息
+target/
+.target
+
+#忽略mvn
+.mvn/
+*.cmd
+mvnw
