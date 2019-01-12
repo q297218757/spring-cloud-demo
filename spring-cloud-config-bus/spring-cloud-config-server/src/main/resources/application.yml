@@ -1,0 +1,31 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: spring-cloud-config-server
+
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/q297218757/spring-cloud-myself    # 配置git仓库的地址
+          search-paths: spring-cloud-config                            # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: 18707751075@163.com                                      # git仓库的账号
+          password: czc08061                                             # git仓库的密码
+    bus:
+      enabled: true
+      trace:
+        enabled: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/   ## 注册中心eurka地址
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
