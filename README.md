@@ -18,7 +18,7 @@ spring cloud 练习项目
     printf("Hello, Markdown.");
     }
 
-*斜出
+*斜体
 **粗体
 
 - 第一项
