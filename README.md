@@ -9,7 +9,7 @@ spring cloud Examples
 - [spring-cloud-hystrix](https://github.com/q297218757/spring-cloud-myself/tree/master/spring-cloud-hystrix "Markdown"):
 熔断器和熔断监控的实例
 - [spring-cloud-zuul](https://github.com/q297218757/spring-cloud-myself/tree/master/spring-cloud-zuul/ "Markdown"): 
-网关实例（暂时没有完善）
+网关zuul实例，包括基础使用和高级应用
 - [spring-cloud-config](https://github.com/q297218757/spring-cloud-myself/tree/master/spring-cloud-config "Markdown"):
 配置文件
 - [spring-cloud-config-git](https://github.com/q297218757/spring-cloud-myself/tree/master/spring-cloud-config-git "Markdown"):
