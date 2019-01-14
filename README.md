@@ -4,7 +4,7 @@ spring cloud Examples
 ---
 
 # 部分实例说明
-- [spring-cloud-eureka](https://github.com/q297218757/spring-cloud-myself/tree/master/spring-cloud-config-eureka "Markdown"):
+- [spring-cloud-eureka](https://github.com/q297218757/spring-cloud-demo/tree/master/spring-cloud-eureka "Markdown"):
 注册中心，包括eureka server单机、双机、集群的实例
 - [spring-cloud-hystrix](https://github.com/q297218757/spring-cloud-myself/tree/master/spring-cloud-hystrix "Markdown"):
 熔断器和熔断监控的实例
