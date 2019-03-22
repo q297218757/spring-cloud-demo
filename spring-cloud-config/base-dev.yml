@@ -5,7 +5,7 @@ spring:
     name: base-service #指定服务名
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF8
+    url: jdbc:mysql://127.0.0.1:3306/ssm?characterEncoding=UTF8
     username: root
     password: czc121314
   jpa:
