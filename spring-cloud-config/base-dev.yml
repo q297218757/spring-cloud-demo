@@ -1,0 +1,22 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: base-service #指定服务名
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF8
+    username: root
+    password: czc121314
+  jpa:
+    database: MySQL
+    show-sql: true
+  redis:
+    host: 127.0.0.1
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:6688/eureka/   ## 注册中心eurka地址
+  instance:
+      prefer-ip-address: true
+        ##.注册中心eurka地址
